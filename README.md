@@ -35,8 +35,18 @@ Logical circuit of the above expressions is given below:
 Figure 02  Encoder 8 * 3
 
 **Procedure**
-~~~
+Step 1: Write the Truth Table
+
+Step 2: Derive Boolean Expressions
+
+Step 3: Write the Module Declaration
+
+Step 4: Implement Dataflow Assignments
+
+Step 5: Verify by Simulation (Optional but Recommended)
+
 **PROGRAM**
+~~~
 Module enc(A0,A1,A2,D0,D1,D2,D3,D4,D5,D6,D7);
 input A0,A1,A2;
 output D0,D1,D2,D3,D4,D5,D6,D7;
